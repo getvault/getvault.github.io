@@ -1,0 +1,27 @@
+@import '~styles/colors';
+@import '~styles/padding';
+
+.wizard {
+
+    .logo {
+        display: block;
+        $width: 40px;
+        width: $width;
+        height: $width;
+        margin: auto;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .details {
+        font-weight: 300;
+    }
+    
+    .help {
+        font-size: 0.8em!important;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}

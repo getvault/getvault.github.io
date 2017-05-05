@@ -1,0 +1,62 @@
+@import '~styles/colors';
+@import '~styles/padding';
+
+.wizard {
+
+    .form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: top;
+    }
+
+    .passphrase {
+        flex: 1;
+    }
+
+    .input {
+        margin-top: 20px;
+    }
+
+    .helpConfirmation {
+        height: 25px;
+        margin-bottom: 20px;
+        font-size: 0.8em!important;
+        font-weight: 400;
+        color: $danger;
+    }
+
+    .checkConfirmation {
+        text-align: center;
+    }
+
+    .iconCheck {
+        color: $primary;
+    }
+
+    .valid {
+        text-align: center;
+        // color: $primary;
+    }
+
+    .button {
+        height: 40px;
+        // border-left: none;
+    }
+
+    .indicator + .indicator {
+        margin-left: 4px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .help {
+        font-size: 0.8em!important;
+        margin-top: 0;
+        padding-top: 0;
+        // margin-bottom: 0;
+        // padding-bottom: 0;
+    }
+}

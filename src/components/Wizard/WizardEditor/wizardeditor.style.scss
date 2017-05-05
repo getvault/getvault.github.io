@@ -1,0 +1,44 @@
+@import '~styles/colors';
+@import '~styles/padding';
+
+.vault {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  // height: 100%;
+  width: 100%;
+  // min-height: 100%;
+  flex: 1;
+
+
+
+
+  .editor {
+    flex: 1;
+    width: 100%;
+    resize: none;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: $black;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    line-height: 1.2em;
+    // overflow-y: scroll;
+
+    transition: 1s linear height;
+
+    @media screen and (max-width: 800px) {
+      margin-top: 40px;
+    }
+
+  }
+
+  .user {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+}

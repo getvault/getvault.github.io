@@ -1,0 +1,29 @@
+.user {
+  align-items: center;
+  background: none;
+  border: 0;
+  display: flex;
+  outline: none;
+
+  .avatar {
+    margin-left: 10px;
+  }
+
+  .menu {
+      text-align: left;
+      // padding: 10px;
+  }
+
+  &.login {
+    &:hover {
+
+      .name {
+        // text-decoration: underline;
+      }
+    }
+  }
+
+  .clickable {
+      cursor: pointer;
+  }
+}

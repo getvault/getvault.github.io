@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="icon" href="src/img/v.png" />
+    <title>My vault</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+
+    <!-- https://getuikit.com/docs/installation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/css/uikit.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.18/js/uikit-icons.min.js"></script>
+
+
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet"> -->
+
+    <!-- <base href="/" /> -->
+
+
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCeO8qB6tnfV1jULbmVEW6UborcsyWVgXc",
+        authDomain: "save-password-cbcde.firebaseapp.com",
+        databaseURL: "https://save-password-cbcde.firebaseio.com",
+        projectId: "save-password-cbcde",
+        storageBucket: "save-password-cbcde.appspot.com",
+        messagingSenderId: "582092887587"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sjcl/1.0.6/sjcl.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script> <!-- for http request for google drive api -->
+
+
+    <!-- <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase-database.js"></script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyCbBv_8vv1rJLmFJpKOXDJa6ahWb0YznkM",
+        authDomain: "react-redux-codelab.firebaseapp.com",
+        databaseURL: "https://react-redux-codelab.firebaseio.com/",
+      }
+      firebase.initializeApp(config)
+    </script> -->
+  </head>
+
+  <body>
+    <div class="index" id="index"/>
+  </body>
+</html>

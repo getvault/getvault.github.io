@@ -1,0 +1,19 @@
+@import '~styles/colors';
+
+.techbar {
+    padding: 10px;
+    border-bottom: 1px solid $border;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+
+    .content {
+        flex: 1;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+}

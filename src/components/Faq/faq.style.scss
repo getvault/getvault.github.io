@@ -1,0 +1,29 @@
+@import '~styles/colors';
+@import '~styles/padding';
+
+.faq {
+  max-width: 800px;
+  margin: auto;
+  .header {
+
+  }
+
+  .brandLogo {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      width: 35px;
+      height: 35px;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+  }
+
+  h2 {
+    color: $primary;
+  }
+}

@@ -1,0 +1,55 @@
+// This file is not imported in the standard way, you can look at webpack.config.js
+// to see how it is done.
+// The reason is to avoid css-loader to modularize mui classes
+
+// https://www.muicss.com/docs/v1/css-js/customization
+// MUI imports normalize 3.0, so we don't need to import one
+@import './styles/colors';
+
+// import MUI SASS
+// @import '~muicss/lib/sass/mui';
+
+// Global config
+* {
+  // font-family: 'Roboto', 'Arial';
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  // font-family: 'Roboto Condensed', 'Arial';
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+  // background-color: $white;
+  font-size: 1.1em;
+  // background: url('img/wallpaper.jpg');
+  background-size: cover;
+
+  min-height: 100%;
+}
+
+.index {
+    height: 100%;
+  
+}
+
+.app {
+  min-height: 100%;
+}
+
+.index {
+
+}
