@@ -18,7 +18,7 @@ const LandingPage = ({ className }) => {
   const openGithub = (event) => {
     event.preventDefault()
     /* global window */
-    window.open('https://github.com/save-password/save-password.github.io')
+    window.open('https://github.com/getvault/getvault.github.io/issues')
   }
 
   return (
@@ -31,7 +31,7 @@ const LandingPage = ({ className }) => {
         </div>
         <div className={styles.welcomeContent} >
           <div className={styles.welcomeCenter}>
-            <h1><img src="/src/img/v-white.png" alt="logo" /><span className={styles.title}>My Vault</span></h1>
+            <h1><img src="/src/img/v-white.png" alt="logo" /><span className={styles.title}>Vault</span></h1>
             <h2>Save in your private vault everything that matters for you</h2>
             <Link to="/vault" className="uk-button uk-button-primary uk-button-large">Get your privacy</Link>
           </div>
@@ -81,7 +81,7 @@ const LandingPage = ({ className }) => {
         <div className={styles.partLeft}>
           <h3>The magic trick</h3>
           <p>
-            <strong>My Vault</strong> is very original because it uses Google
+            <strong>Vault</strong> is very original because it uses Google
             Drive to store your password.
             So you don't need to create an account on our website.
             But as you cannot trust Google, we have encrypted the vault so even
@@ -102,7 +102,7 @@ const LandingPage = ({ className }) => {
         <div className={styles.partRight}>
           <h3>One password to rule them all</h3>
           <p>
-          With <strong>My Vault</strong>, you only need to remember one password.
+          With <strong>Vault</strong>, you only need to remember one password.
           We store all the others for you.
           And for those thinking that it is not safe not store all passwords in one place:
           be sure that it is safer to have only one front door that you know and you protect
@@ -118,7 +118,7 @@ const LandingPage = ({ className }) => {
         This is our credo without business concerns. That is why this application is totally free and will remain free!
         The best way to help us is to be careful online, choose what data really matters for you and do everything to protect it.
         </p>
-        <p>Take back the control of your data, Use <strong>My Vault</strong></p>
+        <p>Take back the control of your data, Use <strong>Vault</strong></p>
         <Link to="/vault" className="uk-button uk-button-secondary uk-button-large">Create your secured vault</Link>
       </div>
       <div className={styles.footer}>
@@ -126,7 +126,7 @@ const LandingPage = ({ className }) => {
 
         <div className={styles.improvements}>
 
-          Want to propose an improvement, describe a bug? Go to the <a href="https://github.com/save-password/save-password.github.io">github</a>
+          Want to propose an improvement, describe a bug? Go to the <a href="https://github.com/getvault/getvault.github.io/issues">github</a>
         </div>
 
       </div>

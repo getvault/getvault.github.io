@@ -25,7 +25,7 @@ const Faq = ({ className }) => {
   const openGithub = (event) => {
     event.preventDefault()
     /* global window */
-    window.open('https://github.com/save-password/save-password.github.io/issues')
+    window.open('https://github.com/getvault/getvault.github.io/issues')
   }
 
 
@@ -52,16 +52,16 @@ const Faq = ({ className }) => {
             </p>
             <p>
               Finally Google Drive has a private folder by application so everything you
-              store with <strong>Save password</strong> is hidden to other applications
+              store with <strong>Vault</strong> is hidden to other applications
                and even to yourself.
             </p>
           </div>
         </li>
         <li>
-          <h2 className="uk-accordion-title">Why is <strong>Save password</strong> so secured?</h2>
+          <h2 className="uk-accordion-title">Why is <strong>Vault</strong> so secured?</h2>
           <div className="uk-accordion-content">
             <p>
-              <strong>My Vault</strong> encrypts your data on your browser before transfering
+              <strong>Vault</strong> encrypts your data on your browser before transfering
                it on your Google Drive so your data are never transfered online in clear.
               Moreover, your data are stored encrypted so even if your Google Drive account
               is compromised nobody will have access to your data.
@@ -72,7 +72,7 @@ const Faq = ({ className }) => {
           <h2 className="uk-accordion-title">How to reset my password/passphrase?</h2>
           <div className="uk-accordion-content">
             <p>
-              You have lost the passphrase to decrypt your data on <strong>My Vault</strong>?
+              You have lost the passphrase to decrypt your data on <strong>Vault</strong>?
               That is too bad because for security reasons, we have no way to retrieve
                your password or to reset it.
               Because if we could reset your passphrase, it means that hackers could do it too.
@@ -98,7 +98,7 @@ const Faq = ({ className }) => {
             <p>
               You can contact use by posting an issue on the &nbsp;
               <a
-                href="https://github.com/save-password/save-password.github.io/issues"
+                href="https://github.com/getvault/getvault.github.io/issues"
                 onClick={openGithub}
               >
                 github
