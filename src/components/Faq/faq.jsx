@@ -31,7 +31,7 @@ const Faq = ({ className }) => {
 
   return (
     <div className={`${className} ${styles.faq}`}>
-      <img src="/src/img/p.png" alt="logo" className={styles.brandLogo} />
+      <img src="/src/img/v.png" alt="logo" className={styles.brandLogo} />
       <header className={styles.header}>
         <h1>FAQ</h1>
       </header>
