@@ -1,0 +1,46 @@
+.ItemEditor {
+  .textarea {
+    resize: none;
+    $height: 100px;
+    height: $height !important;
+    min-height: $height !important;
+  }
+
+  .select {
+    width: 100%;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .expand {
+      flex: 1 1 auto;
+    }
+  }
+
+  .secret {
+    // padding-top: 10px;
+    padding: 10px;
+
+    .button {
+      border: none;
+      background: transparent;
+      outline: none;
+      opacity: 0.5;
+      padding: 0;
+      margin-right: 10px;
+
+      span {
+        font-size: 1.1em;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+
+}

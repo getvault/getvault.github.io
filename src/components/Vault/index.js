@@ -1,1 +1,3 @@
-export default from './vault'
+import Vault from './Vault'
+
+export default Vault

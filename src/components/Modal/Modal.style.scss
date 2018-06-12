@@ -1,0 +1,32 @@
+.Modal {
+  position: absolute;
+  top: 40px;
+  padding-bottom: 40px;
+  left: 50%;
+  right: initial;
+  bottom: initial;
+  border: none;
+  background: rgb(255, 255, 255);
+  overflow: visible;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: 440px;
+  margin-left: -220px;
+  font-family: sans-serif;
+  font-size: 14px;
+
+}
+
+.ModalBackground {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.75);
+  // z-index: 100;
+  overflow: auto;
+  z-index: 1000000;
+
+}

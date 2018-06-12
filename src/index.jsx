@@ -1,28 +1,9 @@
 import React from 'react'
-import { render } from 'react-dom'
-import { Provider } from 'react-redux'
+import ReactDOM from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
+import './index.style'
+import App from './App'
+import registerServiceWorker from './registerServiceWorker'
 
-import 'isomorphic-fetch'
-/* eslint import/no-extraneous-dependencies: 0 import/no-unresolved: 0 */
-import 'file?name=[name].[ext]!./index.html'
-import './global.scss'
-
-import App from './components/App.container'
-import store from './redux/store'
-
-/* eslint-env browser */
-
-
-render(
-  <Provider store={store}>
-    <App />
-  </Provider>
-  , document.getElementById('index')
-)
-
-// render(
-//   <Provider store={store}>
-//     <App />
-//   </Provider>
-//   , document.getElementById('app')
-// )
+ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'))
+registerServiceWorker()
