@@ -1,7 +1,7 @@
 # Vault
 **Vault** is the simplest vault to save everything that matters for you.
 
-It works with :
+It uses with :
 * Google Drive API
 * ReactJS
 * SCSS
